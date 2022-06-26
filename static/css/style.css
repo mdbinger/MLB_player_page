@@ -45,3 +45,8 @@ body {
 .new_container {
     display: flex
 }
+
+iframe {
+    padding: 8px;
+    background: #D50032;
+  }
