@@ -8,6 +8,12 @@ body {
     color: white;
 }
 
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
 .jumbotron {
     background-image: url("images/mlb.jpeg");
     background-size: 100% 100%;
@@ -24,29 +30,10 @@ body {
     color: white;
 }
 
-#viz1653859550251 p {
-    margin:0px 20px;
-    display:-moz-inline-stack;
-    color:white;
-}
-
-#viz1653852802422 {
-    margin:0px 20px;
-    display:-moz-inline-stack;
-    color:white;
-}
-
-#viz1653862606719 {
-    margin:0px 20px;
-    display:-moz-inline-stack;
-    color:white;
-}
-
-.new_container {
-    display: flex
-}
-
 iframe {
+    width: 670px;
+    height: 620px;
     padding: 8px;
     background: #D50032;
   }
+  

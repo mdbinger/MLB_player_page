@@ -10,49 +10,44 @@
 </head>
 <body>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 jumbotron text-center">
-          <h1>WAR Player Data</h1>
-          <h4>How do injuries impact player performance?</h4>
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center">
+        <h1>WAR Player Data</h1>
+        <h4>How do injuries impact player performance?</h4>
       </div>
-    </div>          
+    </div>
+  </div>          
 
     <!--Add Section for Results Tableau Graph-->
-  <div class="row">
-    <h2 style="color:#ffffff; text-align: center">Figure 1: Individual Player WAR Data</h2>
-  </div>
   <div class="container" style="align-items: center; align-content: center">
-    <div class="row" style="align-items: center; align-content: center; margin-left: 220px">
+    <h2 style="color:#ffffff; text-align: center">Figure 1: Individual Player WAR Data</h2>
+    <div class="box" style="align-items: center; align-content: center">
       <div class="col-md-6">
-        <iframe src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pl&#47;PlayerWARDifferencePerYearWithInjuries&#47;PlayerWARDifferencePerYear&#47;1_rss.png" width="670" height="620" ></iframe>
-            <p style="color:white; font-size: 16px; text-align: left; margin-left: 0px; margin-right: -240px;"> Figure 1 above displays the WAR value of a player(s) for each season from 2010 to 2022, as well as the difference of their WAR value relative to the previous season.</p>
+        <iframe src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pl&#47;PlayerWARDifferencePerYearWithInjuries&#47;PlayerWARDifferencePerYear&#47;1_rss.png"></iframe>
+            <p style="color:white; font-size: 16px; text-align: left;"> Figure 1 above displays the WAR value of a player(s) for each season from 2010 to 2022, as well as the difference of their WAR value relative to the previous season.</p>
       </div>
     </div>
   </div>       
-  <div class="row">
-    <h2 style="color:#ffffff; text-align: center">Figure 2: Player Injury Data</h2>
-  </div>
   <div class="container" style="align-items: center; align-content: center">
-    <div class="row" style="align-items: center; align-content: center; margin-left: 220px">
+    <h2 style="color:#ffffff; text-align: center">Figure 2: Player Injury Data</h2>
+    <div class="box" style="align-items: center; align-content: center">
       <div class="col-md-6">
-        <iframe src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Da&#47;DaysSpentInjuredPlayer&#47;DaysSpentInjured&#47;1_rss.png" width="670" height="620" ></iframe>
-            <p style="color:white; font-size: 16px; text-align: left; margin-left: 0px; margin-right: -240px;"> Figure 2 above demonstrates the amount of days a player missed due to a particular injury they sustained<p>
+        <iframe id="center" src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Da&#47;DaysSpentInjuredPlayer&#47;DaysSpentInjured&#47;1_rss.png"></iframe>
+            <p style="color:white; font-size: 16px; text-align: left"> Figure 2 above demonstrates the amount of days a player missed due to a particular injury they sustained<p>
       </div>  
     </div>
-  </div> 
-  <div class="row">
-    <h2 style="color:#ffffff; text-align: center">Figure 3: Team Injury Data & WAR Impact</h2>
-  </div>         
+  </div>       
   <div class="container" style="align-items: center; align-content: center">
-    <div class="row" style="align-items: center; align-content: center; margin-left: 220px">        
+    <h2 style="color:#ffffff; text-align: center">Figure 3: Team Injury Data & WAR Impact</h2>
+    <div class="box" style="align-items: center; align-content: center">        
       <div class="col-md-6">
-        <iframe src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Te&#47;TeamInjuryWARDifferenceandAboveAveragePlayers2WAR&#47;TeamInjuryWARDifferenceandAboveAverageWAR&#47;1_rss.png" width="670" height="620" ></iframe>
-            <p style="color:white; font-size: 16px; text-align: left; margin-left: 0px; margin-right: -240px;"> Figure 3 above represents a team's aggregate lost war due to player injuries, as well as aggregate salary paid to injured players.<p>
+        <iframe style="margin:auto" src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Te&#47;TeamInjuryWARDifferenceandAboveAveragePlayers2WAR&#47;TeamInjuryWARDifferenceandAboveAverageWAR&#47;1_rss.png"></iframe>
+            <p style="color:white; font-size: 16px; text-align: left"> Figure 3 above represents a team's aggregate lost war due to player injuries, as well as aggregate salary paid to injured players.<p>
       </div>
     </div>
-  </div> 
+  </div>
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
     <script src="https://public.tableau.com/app/profile/brett.liddicoat/viz/DaysSpentInjuredPlayer/DaysSpentInjured?publish=yes"></script>
